@@ -1,0 +1,90 @@
+# ==========================================
+# Build Output
+# ==========================================
+bin/
+obj/
+out/
+dist/
+publish/
+build/
+
+# ==========================================
+# Logs & Temporary Files
+# ==========================================
+*.log
+*.tmp
+*.temp
+*.cache
+
+# ==========================================
+# Visual Studio
+# ==========================================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ==========================================
+# Rider / IntelliJ
+# ==========================================
+.idea/
+*.iml
+
+# ==========================================
+# VS Code
+# ==========================================
+.vscode/
+
+# ==========================================
+# NuGet
+# ==========================================
+packages/
+*.nupkg
+*.snupkg
+
+# ==========================================
+# OS Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Test Results
+# ==========================================
+TestResults/
+*.trx
+
+# ==========================================
+# Deployment Artifacts
+# ==========================================
+*.zip
+*.rar
+*.7z
+
+# ==========================================
+# Keep Configuration Files
+# ==========================================
+!*.config
+!appsettings.json
+!appsettings.*.json
+!*.yaml
+!*.yml
+!*.xml
+
+# ==========================================
+# Example: Keep Artifact Folder Structure
+# ==========================================
+# Ignore all binaries but keep config
+artifacts/**/*.dll
+artifacts/**/*.exe
+artifacts/**/*.pdb
+artifacts/**/*.cache
+
+# Allow configs
+!artifacts/**/*.config
+!artifacts/**/*.json
+!artifacts/**/*.xml
+!artifacts/**/*.yaml
+!artifacts/**/*.yml
